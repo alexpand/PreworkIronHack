@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+  font-family:Roboto;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav ul{
+  text-decoration: none;
+}
+
+.top-links{
+  margin: 0 20px 0 0;
+  padding: 0;
+  float: right;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.top-links ul{
+  float: right;
+}
+
+header a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+header{
+  color: white;
+  background-color: rgb(32, 101, 136);
+  height: 400px;
+}
+
+.header-div{
+  padding: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.header-div {
+  background-color: rgb(32, 101, 136);
+  height: 24px;
+}
+
+.logo-bear, .signup-header, .header-div-searchbar, .logo{
+  display: inline;
+  position:relative;
+}
+
+.signup-header{
+  bottom: 20px;
+}
+
+.logo-bear img{
+  width: 50px;
+  height: 50px;
+}
+
+.searchbar{
+  width:85%;
+  height: 50px;
+  background-color: rgb(31, 82, 111);
+  border-color: rgb(32, 101, 136);
+  position: relative;
+  top: -20px;
+}
+
+.header-div-img{
+  background-image: url('../starter-code/images/city-scape.svg');
+  margin: 0 auto;
+  height: 336px;
+}
+
+.h-div-img, .p-div-img, .signup-div-img{
+  display: inline;
+  position:relative;
+  
+}
+
+.h-div-img {
+top: 90px;
+left: 26%;
+}
+
+.p-div-img{
+ font-size: 12px;
+ top: 85px;
+ left: 26%;
+}
+
+.signup-div-img{
+  font-size: 10px;
+  top: 125px;
+  left: 26%;
+  background: rgb(240, 146, 51);
+}
+
+#collaboration{
+  background-color: rgb(39, 53, 71);
+  margin-top: -20px;
+  color: white;
+  height: 400px;
+}
+
+#collaboration a{
+  color: white;
+}
+
+.section-div-img{
+  height: 336px;
+  background-image: url('../starter-code/images/collaboration.svg');
+  background-repeat: no-repeat;
+  background-size: 300px;
+  position: relative;
+  left: 25%;
+  top: 23%;
+}
+
+.section-div-ul, .section-div-signup, .section-div-link, .section-div-h{
+  display: inline;
+  position:relative;
+}
+
+.section-div-h{
+  left: 30%;
+  top: 20px;
+}
+
+.section-div-ul{
+  font-size: 12px;
+  left: 30%;
+  top: 6px;
+  line-height: 21px;
+}
+
+.section-div-signup a{
+  text-decoration: none;
+}
+
+.section-div-signup{
+  font-size: 12px;
+  left: 32%;
+  top: 0px;
+  background-color: rgb(203, 56, 55)
+}
+
+.section-div-link{
+  font-size: 12px;
+  left: 31%;
+  top: -6px;
+}
+
+.section-div-link a{
+  text-decoration: none;
+}
+
+#explication{
+  background-image: url('../starter-code/images/forklift.svg');
+  margin-top: -20px;
+  color: white;
+  height: 400px;
+}
+
+#explication a{
+  text-decoration: none;
+  color: white;
+}
+
+.expl-div-h, .expl-div-p, .expl-div-link{
+  display: inline;
+  position:relative;
+  left: 9%;
+}
+
+.expl-div{
+  position: relative;
+  top: 20%;
+}
+
+.expl-div-link{
+  background-color: rgb(49, 68, 88);
+}
+
+#end{
+  background-color: white;
+}
+
+#end a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.end-h{
+  text-align: center;
+}
+
+.end-img-find, .end-img-discover, .end-img-build{
+  text-align: center;
+  display: inline;
+  position: absolute;
+}
+
+.end-img-find{
+  left: 10%;
+}
+
+.end-img-discover{
+  left: 44%;
+}
+
+.end-img-build{
+  left: 80%;
+}
